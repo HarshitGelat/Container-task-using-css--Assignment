@@ -1,0 +1,26 @@
+.top, .bottom {
+  height: 50px;
+  width: 100%;
+  background-color: blue;
+}
+
+.middle {
+  width: 100%;
+  display: flex;
+}
+
+.left, .right{
+  
+  height: calc(100vh - 100px);
+  width: 50px;
+  
+  background-color: red;
+}
+
+.center {
+  
+  height: calc(100vh - 100px);
+  width: calc(100vw - 100px);
+  
+  background-color: yellow;
+}
